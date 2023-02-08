@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    background-image: url(/images/Rock\ concert\ crowd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 350px;
+    max-width: 100%;
+    min-height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.label {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.input-field {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.input-field:hover {
+    background-color: lightgrey;
+}
+
+.select-wrapper {
+    width: 100%;
+    min-height: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    min-height: 30px;
+}
+
+.message-container {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.message-box {
+    width: 100%;
+    min-height: 200px;
+    overflow: auto;
+}
+
+.message-field {
+    width: 100%;
+    font-size: 12px;
+    padding: 2px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.message-field:hover {
+    background-color: lightgray;
+}
+
+.checkbox-label {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 0px;
+}
+
+.checkbox-info-container {
+    display: flex;
+}
+
+.checkbox-input-title {
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+.button-container {
+    position: relative;
+    height: 30px;
+}
+
+.button {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   height: 30px;
+   font-size: 16px;
+   font-family: 'Archivo Narrow', sans-serif;
+   background-color: white;
+   border: none;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
